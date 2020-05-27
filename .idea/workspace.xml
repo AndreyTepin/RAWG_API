@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="256cfe0d-b1d8-4142-8bb8-ae58fd67c9fa" name="Default Changelist" comment="" />
+    <list default="true" id="256cfe0d-b1d8-4142-8bb8-ae58fd67c9fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/RAWG_API.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/RAWG_API.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/RAWG_API.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/RAWG_API.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/fixtures/RAWG_API_cassettes/base.yml" beforeDir="false" afterPath="$PROJECT_DIR$/spec/fixtures/RAWG_API_cassettes/base.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/lib/RAWG_API/game_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/lib/RAWG_API/game_spec.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,38 +151,18 @@
       <workItem from="1587811678849" duration="1396000" />
       <workItem from="1589705520305" duration="21525000" />
       <workItem from="1589803711270" duration="2689000" />
-      <workItem from="1590583613592" duration="11371000" />
+      <workItem from="1590583613592" duration="10924000" />
     </task>
-    <task id="LOCAL-00001" summary="Add assert Caching">
-      <created>1590595094314</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1590595094314</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add assert Caching" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assert Caching" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583937065063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="305" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583937065063" />
-    <state x="17" y="114" width="1830" height="811" key="CommitChangelistDialog2" timestamp="1590595267043">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="17" y="114" width="1830" height="811" key="CommitChangelistDialog2/0.0.1920.1040/1920.6.1536.822@0.0.1920.1040" timestamp="1590595267043" />
-    <state x="156" y="86" key="DiffContextDialog" timestamp="1590595073222">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="156" y="86" key="DiffContextDialog/0.0.1920.1040/1920.6.1536.822@0.0.1920.1040" timestamp="1590595073222" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1589804129423">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
