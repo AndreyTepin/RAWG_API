@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.rawg.io/api/games/32716
+    uri: https://api.rawg.io/api/games/starcraft
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 May 2020 16:54:02 GMT
+      - Wed, 27 May 2020 13:40:55 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -27,8 +27,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=d68d20b6ed40a8b9729808a769aa9f1101589734441; expires=Tue, 16-Jun-20
-        16:54:01 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      - __cfduid=d3d0974b302e4a62051822d6ce870543b1590586855; expires=Fri, 26-Jun-20
+        13:40:55 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
       Allow:
       - GET, PATCH, HEAD, OPTIONS
       Path:
@@ -45,6 +45,8 @@ http_interactions:
       - api_rawg_io
       Cf-Cache-Status:
       - DYNAMIC
+      Cf-Request-Id:
+      - 02f7f6674000001f2536997200000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Strict-Transport-Security:
@@ -52,9 +54,7 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 594edba529086509-FRA
-      Cf-Request-Id:
-      - 02c5279b39000065092a3d4200000001
+      - 59a0268538651f25-FRA
     body:
       encoding: ASCII-8BIT
       string: '{"id":32716,"slug":"starcraft","name":"StarCraft","name_original":"StarCraft","description":"<p>StarCraft
@@ -62,14 +62,14 @@ http_interactions:
         Inc.. It came out on 31-03-1998. Blizzard Entertainment published the game.
         The game is rated as \"Exceptional\" on RAWG. <br>StarCraft is available on
         PC, Nintendo 64 and macOS. <br>It was scored by Derek Duke, Glenn Stafford,
-        Jason Hayes and Tracy W. Bush. <br></p>","metacritic":null,"metacritic_platforms":[],"released":"1998-03-31","tba":false,"updated":"2019-11-02T10:57:25","background_image":"https://media.rawg.io/media/games/68a/68a77a21ec04083f3e6af62cdbed9c0a.jpg","background_image_additional":"https://media.rawg.io/media/screenshots/1c2/1c229f8d76c2b18e58022adaa143f9c7.jpg","website":"http://www.blizzard.com/starcraft","rating":4.39,"rating_top":5,"ratings":[{"id":5,"title":"exceptional","count":200,"percent":59.52},{"id":4,"title":"recommended","count":91,"percent":27.08},{"id":3,"title":"meh","count":33,"percent":9.82},{"id":1,"title":"skip","count":12,"percent":3.57}],"reactions":{"2":1,"3":1,"4":2,"8":1,"11":1,"12":1,"15":1,"21":1},"added":546,"added_by_status":{"yet":15,"owned":123,"beaten":294,"toplay":21,"dropped":86,"playing":7},"playtime":1,"screenshots_count":12,"movies_count":0,"creators_count":6,"achievements_count":0,"parent_achievements_count":0,"reddit_url":"","reddit_name":"","reddit_description":"","reddit_logo":"","reddit_count":0,"twitch_count":100,"youtube_count":1000000,"reviews_text_count":3,"ratings_count":333,"suggestions_count":452,"alternative_names":[],"metacritic_url":"","parents_count":0,"additions_count":1,"game_series_count":3,"user_game":null,"reviews_count":336,"saturated_color":"0f0f0f","dominant_color":"0f0f0f","parent_platforms":[{"platform":{"id":1,"name":"PC","slug":"pc"}},{"platform":{"id":5,"name":"Apple
-        Macintosh","slug":"mac"}},{"platform":{"id":7,"name":"Nintendo","slug":"nintendo"}}],"platforms":[{"platform":{"id":4,"name":"PC","slug":"pc","image":null,"year_end":null,"year_start":null,"games_count":223804,"image_background":"https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"},"released_at":"1998-03-31","requirements":null},{"platform":{"id":83,"name":"Nintendo
-        64","slug":"nintendo-64","image":null,"year_end":null,"year_start":null,"games_count":349,"image_background":"https://media.rawg.io/media/screenshots/e4c/e4c9fe1fb9c4f99d87cc641465f4ec99.jpg"},"released_at":"1998-03-31","requirements":null},{"platform":{"id":5,"name":"macOS","slug":"macos","image":null,"year_end":null,"year_start":null,"games_count":51750,"image_background":"https://media.rawg.io/media/games/ee3/ee3e10193aafc3230ba1cae426967d10.jpg"},"released_at":"1998-03-31","requirements":null}],"stores":[],"developers":[{"id":124,"name":"Blizzard
+        Jason Hayes and Tracy W. Bush. <br></p>","metacritic":null,"metacritic_platforms":[],"released":"1998-03-31","tba":false,"updated":"2019-11-02T10:57:25","background_image":"https://media.rawg.io/media/games/68a/68a77a21ec04083f3e6af62cdbed9c0a.jpg","background_image_additional":"https://media.rawg.io/media/screenshots/1c2/1c229f8d76c2b18e58022adaa143f9c7.jpg","website":"http://www.blizzard.com/starcraft","rating":4.38,"rating_top":5,"ratings":[{"id":5,"title":"exceptional","count":201,"percent":59.29},{"id":4,"title":"recommended","count":92,"percent":27.14},{"id":3,"title":"meh","count":33,"percent":9.73},{"id":1,"title":"skip","count":13,"percent":3.83}],"reactions":{"2":1,"3":1,"4":2,"8":1,"11":1,"12":1,"15":1,"21":1},"added":553,"added_by_status":{"yet":15,"owned":128,"beaten":295,"toplay":21,"dropped":87,"playing":7},"playtime":1,"screenshots_count":12,"movies_count":0,"creators_count":6,"achievements_count":0,"parent_achievements_count":0,"reddit_url":"","reddit_name":"","reddit_description":"","reddit_logo":"","reddit_count":0,"twitch_count":100,"youtube_count":1000000,"reviews_text_count":3,"ratings_count":336,"suggestions_count":452,"alternative_names":[],"metacritic_url":"","parents_count":0,"additions_count":1,"game_series_count":3,"user_game":null,"reviews_count":339,"saturated_color":"0f0f0f","dominant_color":"0f0f0f","parent_platforms":[{"platform":{"id":1,"name":"PC","slug":"pc"}},{"platform":{"id":5,"name":"Apple
+        Macintosh","slug":"mac"}},{"platform":{"id":7,"name":"Nintendo","slug":"nintendo"}}],"platforms":[{"platform":{"id":4,"name":"PC","slug":"pc","image":null,"year_end":null,"year_start":null,"games_count":225974,"image_background":"https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"},"released_at":"1998-03-31","requirements":null},{"platform":{"id":83,"name":"Nintendo
+        64","slug":"nintendo-64","image":null,"year_end":null,"year_start":null,"games_count":349,"image_background":"https://media.rawg.io/media/screenshots/e4c/e4c9fe1fb9c4f99d87cc641465f4ec99.jpg"},"released_at":"1998-03-31","requirements":null},{"platform":{"id":5,"name":"macOS","slug":"macos","image":null,"year_end":null,"year_start":null,"games_count":52214,"image_background":"https://media.rawg.io/media/games/588/588c6bdff3d4baf66ec36b1c05b793bf.jpg"},"released_at":"1998-03-31","requirements":null}],"stores":[],"developers":[{"id":124,"name":"Blizzard
         Entertainment, Inc.","slug":"blizzard-entertainment-inc","games_count":51,"image_background":"https://media.rawg.io/media/screenshots/1f6/1f613bb69b69b8d4589a425a8b09114d_RuknkqQ.jpg"},{"id":26423,"name":"Mass
-        Media Inc.","slug":"mass-media-inc-2","games_count":10,"image_background":"https://media.rawg.io/media/screenshots/c43/c434fed477a593c88574b0a08d200439.jpg"}],"genres":[{"id":4,"name":"Action","slug":"action","games_count":86543,"image_background":"https://media.rawg.io/media/games/511/5118aff5091cb3efec399c808f8c598f.jpg"}],"tags":[{"id":7,"name":"Multiplayer","slug":"multiplayer","language":"eng","games_count":19979,"image_background":"https://media.rawg.io/media/games/88c/88c5b4d7c80276c03ff62aebb1a99ad4.jpg"},{"id":31,"name":"Singleplayer","slug":"singleplayer","language":"eng","games_count":72554,"image_background":"https://media.rawg.io/media/games/34b/34b1f1850a1c06fd971bc6ab3ac0ce0e.jpg"},{"id":411,"name":"cooperative","slug":"cooperative","language":"eng","games_count":2222,"image_background":"https://media.rawg.io/media/games/15c/15c95a4915f88a3e89c821526afe05fc.jpg"},{"id":37796,"name":"exclusive","slug":"exclusive","language":"eng","games_count":4457,"image_background":"https://media.rawg.io/media/games/fba/fbae1bcfae1feffda6a11fbc1c939420.jpg"}],"publishers":[{"id":10681,"name":"Nintendo","slug":"nintendo","games_count":1139,"image_background":"https://media.rawg.io/media/games/24b/24b68f500fd138c3146d8856f0dd55b4.jpg"},{"id":11237,"name":"Blizzard
+        Media Inc.","slug":"mass-media-inc-2","games_count":10,"image_background":"https://media.rawg.io/media/screenshots/c43/c434fed477a593c88574b0a08d200439.jpg"}],"genres":[{"id":4,"name":"Action","slug":"action","games_count":87117,"image_background":"https://media.rawg.io/media/games/929/9295e55ce69cf5337c567983cf8b4137.jpeg"}],"tags":[{"id":7,"name":"Multiplayer","slug":"multiplayer","language":"eng","games_count":20059,"image_background":"https://media.rawg.io/media/games/328/3283617cb7d75d67257fc58339188742.jpg"},{"id":31,"name":"Singleplayer","slug":"singleplayer","language":"eng","games_count":73306,"image_background":"https://media.rawg.io/media/games/7fa/7fa0b586293c5861ee32490e953a4996.jpg"},{"id":411,"name":"cooperative","slug":"cooperative","language":"eng","games_count":2222,"image_background":"https://media.rawg.io/media/games/a3c/a3c529a12c896c0ef02db5b4741de2ba.jpg"},{"id":37796,"name":"exclusive","slug":"exclusive","language":"eng","games_count":4456,"image_background":"https://media.rawg.io/media/games/d64/d6443375f9971152866ea76bff97d6d6.jpg"}],"publishers":[{"id":10681,"name":"Nintendo","slug":"nintendo","games_count":1140,"image_background":"https://media.rawg.io/media/games/356/3566c06f8e5d3b45f4163dec1d9968a2.jpg"},{"id":11237,"name":"Blizzard
         Entertainment","slug":"blizzard-entertainment","games_count":39,"image_background":"https://media.rawg.io/media/screenshots/1f6/1f613bb69b69b8d4589a425a8b09114d_RuknkqQ.jpg"}],"esrb_rating":null,"clip":null,"description_raw":""}'
     http_version: null
-  recorded_at: Sun, 17 May 2020 16:54:44 GMT
+  recorded_at: Wed, 27 May 2020 13:41:32 GMT
 - request:
     method: get
     uri: https://api.rawg.io/games/starcraft
@@ -89,7 +89,7 @@ http_interactions:
       message: Not Found
     headers:
       Date:
-      - Sun, 17 May 2020 16:54:02 GMT
+      - Wed, 27 May 2020 13:40:55 GMT
       Content-Type:
       - text/html
       Transfer-Encoding:
@@ -97,8 +97,8 @@ http_interactions:
       Connection:
       - keep-alive
       Set-Cookie:
-      - __cfduid=dadebdb274792c91a301217eaac4d98fa1589734442; expires=Tue, 16-Jun-20
-        16:54:02 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
+      - __cfduid=dec4a3de254aaae6fea7201966f17b47c1590586855; expires=Fri, 26-Jun-20
+        13:40:55 GMT; path=/; domain=.rawg.io; HttpOnly; SameSite=Lax; Secure
       Vary:
       - Accept-Encoding
       - Origin
@@ -108,6 +108,8 @@ http_interactions:
       - en
       Cf-Cache-Status:
       - DYNAMIC
+      Cf-Request-Id:
+      - 02f7f668780000fa34fe989200000001
       Expect-Ct:
       - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
       Strict-Transport-Security:
@@ -115,12 +117,10 @@ http_interactions:
       Server:
       - cloudflare
       Cf-Ray:
-      - 594edba80db29bfd-AMS
-      Cf-Request-Id:
-      - 02c5279d0800009bfd6986b200000001
+      - 59a026872a1ffa34-AMS
     body:
       encoding: ASCII-8BIT
       string: "<h1>Not Found</h1><p>The requested resource was not found on this server.</p>"
     http_version: null
-  recorded_at: Sun, 17 May 2020 16:54:44 GMT
+  recorded_at: Wed, 27 May 2020 13:41:32 GMT
 recorded_with: VCR 5.1.0

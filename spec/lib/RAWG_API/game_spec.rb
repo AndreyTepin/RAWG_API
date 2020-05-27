@@ -47,15 +47,11 @@ describe RAWG_API::Game do
     end
 
     it "must parse the api response from JSON to Hash" do
-      JSON.parse(game.details.to_s, {'a':1})
+      game.details.must_be_instance_of HTTParty::Response
     end
 
     it "must perform the request and get the data" do
-      game.details["name"].must_equal 'StarCraft'
-    end
-
-    it "records the fixture" do
-      RAWG_API::Game.get('/games/starcraft')
+      game.details['name'].must_equal 'StarCraft'
     end
 
     describe "dynamic attributes" do
@@ -66,10 +62,30 @@ describe RAWG_API::Game do
 
       it "must return the attribute value if present in details" do
           game.id.must_equal 32716
-       end
+      end
 
       it "must raise method missing if attribute is not present" do
         lambda { game.foo_attribute }.must_raise NoMethodError
+      end
+
+    end
+
+
+    describe "caching" do
+
+      # we use Webmock to disable the network connection after
+      # fetching the detail
+      before do
+        game.details
+        stub_request(:any, /api.rawg.io/).to_timeout
+      end
+
+      it "must cache the detail" do
+        game.details.must_be_instance_of HTTParty::Response
+      end
+
+      it "must refresh the detail if forced" do
+        lambda { game.details(true) }.must_raise Timeout::Error
       end
 
     end
